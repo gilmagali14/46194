@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Program",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\index.js"
+    },
+    {
+      "name": "Debug ANTLR4 grammar",
+      "type": "antlr-debug",
+      "request": "launch",
+      "input": "input.txt",
+      "grammar": "Segurate.g4",
+      "printParseTree": true,
+      "visualParseTree": true
+    }
+  ]
+}

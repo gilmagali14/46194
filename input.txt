@@ -1,0 +1,11 @@
+regla prueba1 {
+    cuando intentoAccesoFueraHorario entonces agregarUsuarioAListaNegra
+}
+
+regla prueba2 {
+    cuando intentosFallidos > 5 entonces activarMonitoreoDetallado
+}
+regla prueba3 {
+    cuando accesoARecursosSensibles y noEsAdministrador entonces agregarIPAListaNegra
+}
+s

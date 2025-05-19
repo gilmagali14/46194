@@ -1,0 +1,14 @@
+[
+  {
+    "tipo": "regla",
+    "identificador": "prueba1",
+    "condicion": "intentoAccesoFueraHorario",
+    "comando": "agregarUsuarioAListaNegra"
+  },
+  {
+    "tipo": "regla",
+    "identificador": "prueba2",
+    "condicion": "intentosFallidos>5",
+    "comando": "activarMonitoreoDetallado"
+  }
+]
