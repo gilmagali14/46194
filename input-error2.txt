@@ -1,0 +1,3 @@
+regla 1prueba {
+    cuando intentoAccesoFueraHorario entonces agregarUsuarioAListaNegra
+}

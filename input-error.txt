@@ -1,0 +1,3 @@
+regla prueba1 {
+    cuando condicionInvalida entonces agregarUsuarioAListaNegra
+}

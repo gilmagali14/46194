@@ -31,7 +31,7 @@ async function main() {
 
     // lee la entrada desde el input.txt
     try {
-        input = fs.readFileSync('input.txt', 'utf8');
+        input = fs.readFileSync('input-error2.txt', 'utf8');
 
         if (!input.trim()){
             throw new Error("Archivo vacio");
@@ -97,7 +97,7 @@ const tokenStream = new CommonTokenStream(lexer);
     const tree = parser.dsl(); 
 
     if (errorListener.hayErrores()) {
-        console.error("\n❌ Se encontraron errores de sintaxis en la entrada.");
+        console.error("\n❌ Se encontraron errores en la entrada.");
         return;
     }
 
